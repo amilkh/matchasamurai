@@ -93,7 +93,12 @@ h1,h2,h3{font-family:"Spectral","Noto Sans JP",serif;line-height:1.2;color:var(-
 /* bios */
 .bios{display:grid;grid-template-columns:1fr 1fr;gap:24px}
 .bio{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:28px;box-shadow:var(--shadow)}
-.bio-head{border-bottom:2px solid var(--accent);padding-bottom:12px;margin-bottom:14px}
+.bio-head{display:flex;align-items:center;gap:16px;border-bottom:2px solid var(--accent);padding-bottom:14px;margin-bottom:16px}
+.bio-avatar{flex:none;width:60px;height:60px;border-radius:50%;
+  background:linear-gradient(150deg,var(--tint),color-mix(in srgb,var(--tint) 70%,#000));
+  color:#fff;display:flex;align-items:center;justify-content:center;
+  font-family:"Spectral",serif;font-weight:600;font-size:1.4rem;letter-spacing:.02em;
+  box-shadow:0 3px 10px rgba(43,63,41,.18)}
 .bio-head h3{margin:0;font-size:1.3rem}
 .bio-role{color:var(--gold);font-weight:600;font-size:.9rem;text-transform:uppercase;letter-spacing:.06em;margin-top:4px}
 .ja .bio-role{letter-spacing:.02em}
