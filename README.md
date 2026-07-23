@@ -34,5 +34,5 @@ Text lives inline in the HTML as paired `<span class="en">…</span><span class=
 Regenerate from source with `build_site.py` (kept in project scratch), or edit HTML directly.
 
 ## TODO
-- Swap the 🍵 text logo for the real logo asset (requested from Ishana).
+- ~~Swap the text logo for the real logo asset~~ DONE (img/logo.png, pulled from Gsite).
 - Confirm the intake form link is current: https://forms.gle/ReiTpMpVx523zwNr6

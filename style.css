@@ -35,7 +35,10 @@ h1,h2,h3{font-family:"Spectral","Noto Sans JP",serif;line-height:1.2;color:var(-
   padding:14px 28px;background:rgba(255,254,251,.9);backdrop-filter:blur(10px);
   border-bottom:1px solid var(--line);
 }
-.brand{font-family:"Spectral",serif;font-weight:600;font-size:1.28rem;color:var(--matcha-deep);white-space:nowrap}
+.brand{display:flex;align-items:center;gap:9px;font-family:"Spectral",serif;font-weight:600;font-size:1.28rem;color:var(--matcha-deep);white-space:nowrap}
+.brand-logo{height:34px;width:34px}
+.foot-logo{height:30px;width:30px;vertical-align:middle;margin-right:6px}
+.foot-brand{display:flex;align-items:center;justify-content:center;gap:4px}
 .nav{margin-left:auto;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .nav a{padding:8px 12px;border-radius:10px;color:var(--muted);font-weight:500;font-size:.96rem}
 .nav a:hover{color:var(--matcha-deep);background:rgba(90,125,79,.08)}
